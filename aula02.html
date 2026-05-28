@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <title>Formulário HTML</title>
+   <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Referências</h1>
+    <form action="cadastro.php" method="GET">
+        <label for="name">Nome: </label>
+        <input type="test" id="nome" name="text">
+        <br>
+        <h2>Qual turno você prefere estudar?</h2>
+        <input type="radio" name="turno" id="manha"> 
+        <label for ="manha">Manhã</label>
+        <br>
+        <input type="radio" name="turno" id="tarde"> 
+        <label for ="tarde">Tarde</label>
+        <br>
+        <input type="radio" name="turno" id="noite"> 
+        <label for ="noite">Noite</label>
+        <br>
+        <h2>Quais áreas da tecnologia você tem interesse?</h2>
+        <input type="checkbox" name="area" id="programacao"> 
+        <label for="programacao">Programação</label>
+        <br>
+        <input type="checkbox" name="area" id="design"> 
+        <label for="design">Design</label>
+        <br>
+        <input type="checkbox" name="area" id="bancodedados"> 
+        <label for="bancodedados">Banco de dados</label>
+        <br>
+        <input type="checkbox" name="area" id="redes"> 
+        <label for="redes">Redes</label>
+        <br>
+        <p>Qual sua cor favorita?</p>
+        <input type="color">
+        <br>
+        <p>Qual seu nivel de satisfação?</p>
+        <input type="range">
+        <br>
+        <p>Qual seu horário preferido?</p>
+        <input type="time">
+        <br>
+        <p>Envie um arquivo!</p>
+        <input type="file">
+        <br>
+        <input type="submit" value="Cadrastrar">
+        <input type="reset" value="Limpar">
+    </form>
